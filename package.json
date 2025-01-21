@@ -13,7 +13,7 @@
     "lint": "next lint",
     "predeploy": "npm run build",
     "export": "next export",
-    "deploy": "npm run export && touch ./out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "npm run export && touch ./out/.nojekyll && gh-pages -d out"
   },
   "devDependencies": {
     "@types/node": "22.10.7",
@@ -24,6 +24,5 @@
     "typescript": "5.7.3"
   },
   "homepage": "https://hannahw24.github.io/Portfolio",
-  "private": true,
   "type": "module"
 }
