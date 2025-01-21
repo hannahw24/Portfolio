@@ -1,5 +1,18 @@
+import { Header } from "./header";
+
 export const Home = () => {
+    const header = [
+        'justify-center',
+        'flex',
+        'w-full',
+        'p-8',
+        'border-solid',
+        'border-y-2'
+    ].join(' ');
+
     return (
-        <h1 className="text-3xl font-bold underline text-cyan-500">Hello, Next.js!</h1>
+        <div>
+            <Header/>
+        </div>
     )
 }
