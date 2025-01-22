@@ -5,3 +5,5 @@ export default function Contact() {
         </div>
     )
 }
+
+// TODO:Fix routing for the contact and about pagge... githun route is a bit off

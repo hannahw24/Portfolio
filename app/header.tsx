@@ -34,7 +34,7 @@ export const Header = () => {
                 <h1 className={description}>Software Engineer | UX Design Researcher</h1>
             </div>
             <div className={optionsDiv}>
-                <a href="/about" className='pt-2'>About</a>
+                <Link href="/about" className='pt-2'>About</Link>
                 <Link href="/portfolio" className='pt-2 pl-4'>Portfolio</Link>
                 <Link href="/resume" className='pt-2 pl-4'>Resume</Link>
                 <Link href="/contact" className='pt-2 pl-4'>Contact</Link>
