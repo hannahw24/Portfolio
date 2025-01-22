@@ -30,7 +30,7 @@ export const Header = () => {
     return (
         <div className={header}>
             <div className={nameDiv}>
-                <h1 className={name}>Hannah Wong</h1>
+                <Link href="/" className={name}>Hannah Wong</Link>
                 <h1 className={description}>Software Engineer | UX Design Researcher</h1>
             </div>
             <div className={optionsDiv}>
