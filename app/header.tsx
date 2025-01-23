@@ -17,7 +17,7 @@ export const Header = () => {
         'pl-4',
     ].join(' ');
 
-    const name = ['text-3xl', 'font-bold', 'pr-4'].join(' ');
+    const name = ['text-3xl', 'font-bold', 'pr-4', 'text-sky-500'].join(' ');
     const description = ['text-lg', 'font-light', 'pt-2'].join(' ');
 
     const optionsDiv = [
