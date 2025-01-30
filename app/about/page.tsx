@@ -2,7 +2,7 @@ import { Header } from '../header';
 
 const bioContainer = [
 	'flex',
-	'space-x-4',
+	'space-x-8',
 	'pt-10',
 	'pl-8',
 	'pr-8',
@@ -40,8 +40,7 @@ export default function About() {
 					applications.
 					<br />
 					<br />
-					Why?
-					<br />
+					<h1 className='font-semibold'>Why?</h1>
 					<br />
 					I've always had a natural curiosity to understand how different people
 					interact with technology. I've also always been interested in learning
