@@ -39,7 +39,6 @@ export const Header = () => {
 					rel='noopener noreferrer'
 					target='_blank'
 					aria-label='Hannah Wongs Resume'
-					locale='false'
 					className='pt-2 pl-4'
 				>
 					Resume

@@ -1,12 +1,15 @@
 // const isProd = process.env.NODE_ENV === 'production';
+
+import { type } from 'os';
+
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
 	webpack(config) {
 		config.module.rules.push({
-			test: /\.svg$/,
-			use: ['@svgr/webpack'],
+			test: /\.(svg|pdf)$/,
+			use: ['@svgr/webpack', 'file-loader'],
 		});
 
 		return config;
