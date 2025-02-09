@@ -38,7 +38,7 @@ export const Header = () => {
 					href='/Hannah_Wong_Resume.pdf'
 					rel='noopener noreferrer'
 					target='_blank'
-					aria-label='Hannah Wongs Resume'
+					aria-label='CLick to view Hannah Wongs Resume pdf'
 					className='pt-2 pl-4'
 				>
 					Resume

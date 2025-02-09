@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Header } from '../header';
 
 const bioContainer = [
@@ -72,7 +73,16 @@ export default function About() {
 			</div>
 			<div className={more}>
 				<h3>
-					Want to know more? Check out my <a>resume</a>
+					Want to know more? Check out my{' '}
+					<Link
+						href='/Hannah_Wong_Resume.pdf'
+						rel='noopener noreferrer'
+						target='_blank'
+						aria-label='CLick to view Hannah Wongs Resume pdf'
+						className='underline text-sky-600'
+					>
+						resume.
+					</Link>
 				</h3>
 			</div>
 		</div>
