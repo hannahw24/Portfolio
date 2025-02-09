@@ -12,9 +12,9 @@ const nextConfig = {
 		return config;
 	},
 	reactStrictMode: true,
-	// images: {
-	// 	unoptimized: true, // Disable default image optimization
-	// },
+	images: {
+		unoptimized: true, // Disable default image optimization
+	},
 	assetPrefix: '/Portfolio',
 	basePath: '/Portfolio',
 	output: 'export',

@@ -40,7 +40,7 @@ export default function About() {
 					applications.
 					<br />
 					<br />
-					<h1 className='font-semibold'>Why?</h1>
+					<p className='font-semibold'>Why?</p>
 					<br />
 					I've always had a natural curiosity to understand how different people
 					interact with technology. I've also always been interested in learning
