@@ -407,7 +407,7 @@ export default function Portfolio() {
 							to move faster without sacrificing quality.
 						</p>
 						<p className='project-card-stack'>
-							Next.js · React.js · TypeScript · Tailwind CSS
+							Next.js · React · TypeScript · Tailwind CSS
 						</p>
 						<ProjectCarousel
 							slides={[
@@ -427,18 +427,54 @@ export default function Portfolio() {
 								{ src: '/Portfolio/portfolio-14.png', caption: 'After' },
 								{ src: '/Portfolio/portfolio-15.png', caption: 'After' },
 								{ src: '/Portfolio/portfolio-16.png', caption: 'After' },
-								{ src: '/Portfolio/portfolio-17.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-18.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-19.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-20.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-21.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-22.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-23.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-24.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-25.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-26.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-27.png', caption: 'Built with Claude' },
-								{ src: '/Portfolio/portfolio-28.png', caption: 'Built with Claude' },
+								{
+									src: '/Portfolio/portfolio-17.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-18.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-19.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-20.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-21.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-22.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-23.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-24.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-25.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-26.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-27.png',
+									caption: 'Built with Claude',
+								},
+								{
+									src: '/Portfolio/portfolio-28.png',
+									caption: 'Built with Claude',
+								},
 							]}
 						/>
 					</div>
