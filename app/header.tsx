@@ -16,10 +16,22 @@ export const Header = () => {
 
 	const nameDiv = ['flex', 'justify-left', 'align-middle', 'pl-4'].join(' ');
 
-	const name = ['text-3xl', 'font-bold', 'pr-4', 'text-[var(--sky)]', 'font-playfair'].join(' ');
+	const name = [
+		'text-3xl',
+		'font-bold',
+		'pr-4',
+		'text-[var(--sky)]',
+		'font-playfair',
+	].join(' ');
 	const description = ['text-lg', 'font-light', 'pt-2'].join(' ');
 
-	const optionsDiv = ['flex', 'justify-right', 'align-right', 'pr-4', 'text-[var(--text-light)]'].join(' ');
+	const optionsDiv = [
+		'flex',
+		'justify-right',
+		'align-right',
+		'pr-4',
+		'text-[var(--text-light)]',
+	].join(' ');
 
 	return (
 		<div className={header}>
@@ -37,7 +49,7 @@ export const Header = () => {
 					Portfolio
 				</Link>
 				<Link
-					href='/Hannah_Wong_Resume.pdf'
+					href='/Hannah_Wong_Resume_April_2026.pdf'
 					rel='noopener noreferrer'
 					target='_blank'
 					aria-label='Click to view Hannah Wong Resume PDF'
