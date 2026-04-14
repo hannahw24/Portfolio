@@ -1,3 +1,15 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+	--navy: #1a3a5c;
+	--blue: #2e6da4;
+	--sky: #7ab3d4;
+	--mist: #c8dfee;
+	--cream: #f7f3ee;
+	--warm-white: #fdfaf7;
+	--sand: #e8ddd0;
+	--text: #2a2a2a;
+	--text-light: #6b6b6b;
+}
