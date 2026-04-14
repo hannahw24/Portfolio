@@ -1,2 +1,3 @@
-# Portfolio
-Trying to make a website portfolio from scratch using HTML, CSS, Typescript, and ReactJS / NextJS
+# Hannah's Portfolio
+
+Made a website portfolio from scratch using ReactJS / NextJS, Typescript, HTML, and CSS.
