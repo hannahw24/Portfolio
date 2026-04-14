@@ -12,7 +12,7 @@ const info = [
 	'space-y-2',
 ].join(' ');
 
-const thanks = ['font-semibold', 'text-sky-500', 'text-xl'].join(' ');
+const thanks = ['font-semibold', 'text-[var(--sky)]', 'text-xl'].join(' ');
 const contact = ['text-sky-600', 'underline', 'font-bold'].join(' ');
 
 export default function Contact() {

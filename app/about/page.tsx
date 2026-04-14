@@ -33,34 +33,35 @@ export default function About() {
 					alt='Picture of Hannah Wong'
 				/>
 				<h1 className={bio}>
-					Hello, I'm Hannah Wong! I'm a Software Engineer based out of Southern
-					California. Currently, I'm pursuing my Master's in Human Computer
-					Interaction, with an empahsis on UX Design and Research, at University
-					of Maryland. I have a passion for bridging the gap between design and
-					engineering to create inclusive and accessible websites and
-					applications.
+					Hello, I'm Hannah Wong — a Software Engineer based in Southern
+					California. I'm currently pursuing a Master's in Human-Computer
+					Interaction, with an emphasis on UX Design and Research, at the
+					University of Maryland. I'm passionate about building inclusive,
+					accessible products that sit at the intersection of design and
+					engineering — especially as AI reshapes what's possible.
 					<br />
 					<br />
 					<p className='font-semibold'>Why?</p>
 					<br />
-					I've always had a natural curiosity to understand how different people
-					interact with technology. I've also always been interested in learning
-					more about UX design. Through my various experiences, I learned the
-					importance of inclusive design. And recently, I learned the importance
-					of designing and developing with accessibility in mind as well.
+					I've always had a natural curiosity for how different people
+					experience technology — not just whether something works, but whether
+					it works <em>for everyone</em>. That curiosity grew into a deep
+					interest in UX design and a commitment to accessibility.
 					<br />
 					<br />
-					While the gap between design and engineering is closing, there is
-					still a massive disconnect between the two. I want to help bridge that
-					gap by enhancing my design skills and learning about the research
-					process to explain why we should or shouldn't create interfaces /
-					flows a particular way.
+					We're at an inflection point. AI is fundamentally changing how
+					products are designed, built, and experienced. I want to be at that
+					intersection — using my engineering background and HCI training to
+					help teams build interfaces that harness AI's power without leaving
+					people behind.
 				</h1>
 			</div>
 			<div className={experienceContainer}>
-				<h2 className='text-sky-500 font-semibold'>Recent Experiences</h2>
+				<h2 className='text-[var(--sky)] font-semibold'>Recent Experiences</h2>
 				<div className='font-light'>
-					<li>Software Engineer II - Frontend at Disney (May 2024 - Now)</li>
+					<li>
+						Software Engineer II - Frontend at Disney (May 2024 - Present)
+					</li>
 					<li>
 						Full Stack Software Engineer at General Motors (February 2022 -
 						April 2024)
@@ -75,7 +76,7 @@ export default function About() {
 				<h3>
 					Want to know more? Check out my{' '}
 					<Link
-						href='/Hannah_Wong_Resume.pdf'
+						href='/Hannah_Wong_Resume_April_2026.pdf'
 						rel='noopener noreferrer'
 						target='_blank'
 						aria-label='CLick to view Hannah Wongs Resume pdf'

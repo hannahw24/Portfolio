@@ -2,6 +2,69 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body {
+	font-family: var(--font-dm-sans), sans-serif;
+}
+
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(24px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.hero-text {
+	animation: fadeUp 0.8s ease forwards;
+}
+
+.hero-image-side {
+	animation: fadeUp 0.8s 0.2s ease both;
+}
+
+h1.welcome {
+	font-size: clamp(1.2rem, 2.4vw, 2rem);
+	color: var(--black);
+}
+
+h1.hero {
+	font-family: 'Playfair Display', serif;
+	font-size: clamp(2rem, 3.5vw, 3rem);
+	line-height: 1.1;
+	color: var(--navy);
+	margin-bottom: 20px;
+	padding-top: 1.5rem;
+}
+
+h1.hero span {
+	color: var(--blue);
+	margin: 0 0.25em;
+}
+
+h1.hero span::before {
+	content: '\201C';
+	color: var(--sky);
+	margin-right: 0.1em;
+}
+
+h1.hero span::after {
+	content: '\201D';
+	color: var(--sky);
+	margin-left: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-playfair), serif;
+}
+
 :root {
 	--navy: #1a3a5c;
 	--blue: #2e6da4;
@@ -12,4 +75,5 @@
 	--sand: #e8ddd0;
 	--text: #2a2a2a;
 	--text-light: #6b6b6b;
+	--black: #000000;
 }

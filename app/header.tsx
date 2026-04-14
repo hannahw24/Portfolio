@@ -12,10 +12,10 @@ export const Header = () => {
 
 	const nameDiv = ['flex', 'justify-left', 'align-middle', 'pl-4'].join(' ');
 
-	const name = ['text-3xl', 'font-bold', 'pr-4', 'text-sky-500'].join(' ');
+	const name = ['text-3xl', 'font-bold', 'pr-4', 'text-[var(--sky)]', 'font-playfair'].join(' ');
 	const description = ['text-lg', 'font-light', 'pt-2'].join(' ');
 
-	const optionsDiv = ['flex', 'justify-right', 'align-right', 'pr-4'].join(' ');
+	const optionsDiv = ['flex', 'justify-right', 'align-right', 'pr-4', 'text-[var(--text-light)]'].join(' ');
 
 	return (
 		<div className={header}>
@@ -23,9 +23,7 @@ export const Header = () => {
 				<Link href='/' className={name}>
 					Hannah Wong
 				</Link>
-				<h1 className={description}>
-					Software Engineer | UX Design Researcher
-				</h1>
+				<h1 className={description}>Software Engineer | UX Engineer</h1>
 			</div>
 			<div className={optionsDiv}>
 				<Link href='/about' className='pt-2'>
