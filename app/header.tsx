@@ -8,6 +8,10 @@ export const Header = () => {
 		'border-solid',
 		'border-y-2',
 		'justify-between',
+		'sticky',
+		'top-0',
+		'z-50',
+		'bg-white',
 	].join(' ');
 
 	const nameDiv = ['flex', 'justify-left', 'align-middle', 'pl-4'].join(' ');
@@ -36,7 +40,7 @@ export const Header = () => {
 					href='/Hannah_Wong_Resume.pdf'
 					rel='noopener noreferrer'
 					target='_blank'
-					aria-label='CLick to view Hannah Wongs Resume pdf'
+					aria-label='Click to view Hannah Wong Resume PDF'
 					className='pt-2 pl-4'
 				>
 					Resume
